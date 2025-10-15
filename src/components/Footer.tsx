@@ -149,11 +149,11 @@ export function Footer() {
 
               <div className="flex items-center gap-4 mb-4">
                 <a
-                  href="mailto:hello@agency.com"
+                  href="mailto:hello@naimtech.com"
                   className="inline-flex items-center gap-2 text-aqua-500 hover:text-aqua-400 transition-colors duration-300"
                 >
                   <Mail className="w-4 h-4" />
-                  hello@agency.com
+                  hello@naimtech.com
                 </a>
               </div>
 
@@ -261,7 +261,7 @@ export function Footer() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="text-center text-gray-400 text-sm"
           >
-            <p>© {currentYear} Digital Agency. All rights reserved.</p>
+            <p>© {currentYear} NaimTech. All rights reserved.</p>
             <p className="mt-2 text-xs">
               Powered by AI Automations • Built for Effortless Growth
             </p>

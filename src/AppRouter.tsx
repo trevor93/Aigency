@@ -6,6 +6,10 @@ import { Pricing } from './components/Pricing';
 import { InteractiveDemo } from './components/InteractiveDemo';
 import { Portfolio } from './components/Portfolio';
 import { Testimonials } from './components/Testimonials';
+import { TechInsights } from './components/TechInsights';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+import { FloatingCTA } from './components/FloatingCTA';
 import { ClientLogin } from './pages/ClientLogin';
 import { ClientDashboard } from './pages/ClientDashboard';
 import { PaymentSuspension } from './pages/PaymentSuspension';
@@ -90,12 +94,22 @@ export function AppRouter() {
       <div id="services">
         <Features />
       </div>
-      <Pricing />
       <InteractiveDemo />
       <div id="portfolio">
         <Portfolio />
       </div>
       <Testimonials />
+      <div id="pricing">
+        <Pricing />
+      </div>
+      <div id="blog">
+        <TechInsights />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
+      <FloatingCTA />
     </div>
   );
 }

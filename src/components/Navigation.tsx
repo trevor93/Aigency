@@ -64,11 +64,11 @@ export function Navigation({ darkMode, toggleDarkMode }: NavigationProps) {
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex items-center gap-2 group" onClick={(e) => handleNavClick(e, '#home')}>
             <div className="w-10 h-10 bg-gradient-to-br from-aqua-500 to-aqua-300 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-              <span className="text-navy-900 font-bold text-xl">A</span>
+              <span className="text-navy-900 font-bold text-xl">N</span>
             </div>
             <span className="text-xl font-bold">
-              <span className="text-white">Ai</span>
-              <span className="text-gradient">gency</span>
+              <span className="text-white">Naim</span>
+              <span className="text-gradient">Tech</span>
             </span>
           </a>
 
